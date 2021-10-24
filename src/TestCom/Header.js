@@ -12,7 +12,7 @@ const Header = () => {
                     <NavLink>
                      <MyLink to="/"><AiOutlineHome/></MyLink>
                      <MyLink to="/NewProject"><AiFillSetting /></MyLink>
-                     <MyLink to="/About"><AiOutlineFlag /></MyLink>
+                     <MyLink to="/HomeScreen"><AiOutlineFlag /></MyLink>
                      </NavLink>
              </Wrapper>
         </Container>

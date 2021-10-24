@@ -18,6 +18,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import {DummyHome, DummyAbout} from "./TestCom/DummyHome"
 import Header from './TestCom/Header'
 import NewProject from './TestCom/NewProject'
+import HomeScreen from './Daillydev/HomeScreen'
 const App = () => {
   return (
        <Router>
@@ -25,7 +26,7 @@ const App = () => {
          <Switch>
             <Route path="/" exact component={DummyHome}></Route>
             <Route path="/newProject" exact component={NewProject}></Route>
-            <Route path="/About" exact component={DummyAbout}></Route>
+            <Route path="/homeScreen" exact component={HomeScreen}></Route>
           </Switch>
         </Router>
   )

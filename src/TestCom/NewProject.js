@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
 import MyButton from "./MyButton"
-import img from "../TestCom/Rb.jpeg" 
+import img from "../TestCom/MAIN.png"
+
 const NewProject = () => {
     return (
         <Container>
